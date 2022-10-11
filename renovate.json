@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":disableVulnerabilityAlerts"],
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "repositories": ["enskyl/renovate-go-issue-otel"],
+  "reviewers": [
+    "enskyl"
+  ],
+  "onboarding": false,
+  "timezone": "Europe/Berlin",
+  "prConcurrentLimit": 20,
+  "dependencyDashboard": true,
+  "requireConfig": "optional",
+  "postUpdateOptions": ["gomodTidy"]
+}
